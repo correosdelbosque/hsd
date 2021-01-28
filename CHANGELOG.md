@@ -1,5 +1,12 @@
 # HSD Release Notes & Changelog
 
+## unreleased
+
+### API changes
+
+- The `stats` field included in `namestate.toJSON()` includes extra data if the name
+is in a TRANSFER state.
+
 ## v2.3.0
 
 ### Node changes
